@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Herramientas para el Negocio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --azul: #1C2D4A;
+      --verde: #00BFA5;
+      --fondo: #f4f7fa;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--fondo);
+      color: #333;
+    }
+
+    header {
+      background: var(--azul);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .herramienta {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      width: 300px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .herramienta img {
+      width: 50px;
+      margin-bottom: 15px;
+    }
+
+    .herramienta h3 {
+      font-size: 1.1rem;
+      color: var(--azul);
+      margin-bottom: 10px;
+    }
+
+    .herramienta p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .herramienta a {
+      display: inline-block;
+      margin-top: 15px;
+      text-decoration: none;
+      background-color: var(--verde);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<div style="position: fixed; top: 20px; right: 20px; z-index: 9999;">
+  <a href="index.html" style="background-color: #F9A825; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-family: 'Poppins', sans-serif; font-weight: bold; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+    INICIO ⭢
+  </a>
+</div>
+
+
+  <header>
+    <h1>Herramientas para el Negocio</h1>
+  </header>
+
+  <section class="intro">
+    <p>Accede a recursos clave que te ayudarán a administrar, organizar y hacer crecer tu negocio como preparador de impuestos. Todas las herramientas son oficiales, seguras y gratuitas.</p>
+  </section>
+
+  <div class="contenedor">
+
+    <!-- Herramientas proporcionadas -->
+    
+
+    <div class="herramienta">
+      <img src="https://cdn-icons-png.flaticon.com/512/3405/3405805.png" alt="PTIN">
+      <h3>Verificación PTIN</h3>
+      <p>Confirma si estás registrado como preparador oficial.</p>
+      <a href="https://rpr.irs.gov/" target="_blank">VERIFICAR</a>
+    </div>
+
+    <div class="herramienta">
+      <img src="https://cdn-icons-png.flaticon.com/512/3304/3304566.png" alt="IRS">
+      <h3>e-Services IRS</h3>
+      <p>Portal profesional para preparadores de impuestos certificados.</p>
+      <a href="https://www.irs.gov/e-services" target="_blank">IR AL SITIO</a>
+    </div>
+
+    <div class="herramienta">
+      <img src="https://cdn-icons-png.flaticon.com/512/482/482058.png" alt="Calendario">
+      <h3>Calendario Fiscal 2025</h3>
+      <p>Consulta fechas importantes para negocios y reportes al IRS.</p>
+      <a href="https://www.irs.gov/pub/irs-pdf/p509.pdf" target="_blank">DESCARGAR</a>
+    </div>
+
+    <!-- Herramientas sugeridas -->
+    <div class="herramienta">
+      <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" alt="Factura">
+      <h3>Generador de Facturas</h3>
+      <p>Crea facturas personalizadas y profesionales para tus clientes.</p>
+      <a href="https://invoice-generator.com/" target="_blank">ACCEDER</a>
+    </div>
+
+  
+    <div class="herramienta">
+      <img src="https://cdn-icons-png.flaticon.com/512/179/179386.png" alt="Whatsapp">
+      <h3>WhatsApp Business</h3>
+      <p>Organiza respuestas automáticas, catálogos y comunicación profesional.</p>
+      <a href="https://www.whatsapp.com/business/" target="_blank">INSTALAR</a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Aliados Fiscales | Herramientas para crecer tu negocio
+  </footer>
+  
+  <script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="tVZkVYx8ZbulyRy--W3Rm";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+
+</body>
+</html>

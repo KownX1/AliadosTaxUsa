@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luis Ramírez | Perfil Corporativo Completo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; background: #f9f9f9; color: #1a1a1a; }
+    header {
+      background: linear-gradient(to right, #003973, #e5e5be);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 { font-size: 3em; margin: 0; }
+    header p { font-size: 1.2em; margin-top: 10px; }
+
+    section { max-width: 1100px; margin: auto; padding: 60px 20px; }
+    h2 { font-size: 2em; margin-bottom: 30px; color: #003973; }
+
+    .split { display: flex; flex-wrap: wrap; gap: 30px; align-items: center; }
+    .split img { width: 300px; border-radius: 10px; }
+    .badges span {
+      display: inline-block;
+      margin: 6px;
+      padding: 6px 14px;
+      background: #003973;
+      color: white;
+      border-radius: 20px;
+      font-size: 0.85em;
+    }
+
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .card i { font-size: 2em; color: #d4af37; margin-bottom: 10px; }
+
+    .timeline { border-left: 4px solid #003973; padding-left: 20px; }
+    .timeline p { margin-bottom: 15px; position: relative; }
+    .timeline p::before {
+      content: '✔️'; position: absolute; left: -24px; top: 0;
+    }
+
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+    .gallery img { width: 100%; border-radius: 8px; }
+
+    .stats { display: flex; justify-content: space-around; background: #eef1f5; padding: 30px 15px; border-radius: 10px; margin-top: 40px; }
+    .stat h3 { color: #003973; font-size: 2em; margin-bottom: 5px; }
+
+    .testimonial {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+    }
+
+    .formbox {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    form { flex: 2; }
+    input, textarea {
+      width: 100%; padding: 12px; margin-bottom: 15px;
+      border: 1px solid #ccc; border-radius: 6px;
+    }
+    .contact-info {
+      flex: 1;
+      background: #f0f2f5;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #003973;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .social a {
+      color: #ffc107;
+      margin: 0 10px;
+      font-size: 1.4em;
+      text-decoration: none;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      font-size: 24px;
+      border-radius: 50%;
+      padding: 14px 16px;
+      text-decoration: none;
+      z-index: 999;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Luis Ramírez</h1>
+  <p>Consultor Fiscal Corporativo de Alto Nivel</p>
+</header>
+
+<section>
+  <h2>Mi historia profesional</h2>
+  <div class="split">
+    <img src="https://via.placeholder.com/300x400" alt="Luis Ramírez" />
+    <div>
+      <p>He dedicado más de 18 años a ayudar a empresas y emprendedores a establecerse correctamente, proteger sus activos y reducir riesgos fiscales.</p>
+      <p>Mi enfoque se basa en la transparencia, el análisis estratégico y el acompañamiento personalizado.</p>
+      <div class="badges">
+        <span>IRS Enrolled Agent</span>
+        <span>QuickBooks Advisor</span>
+        <span>NATP Member</span>
+        <span>+350 Empresas Asesoradas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Servicios que ofrezco</h2>
+  <div class="cards">
+    <div class="card">
+      <i class="bi bi-building"></i>
+      <h3>Formación de Empresas</h3>
+      <p>Registro de LLCs, S-Corp y Nonprofits con base fiscal sólida.</p>
+    </div>
+    <div class="card">
+      <i class="bi bi-cash-coin"></i>
+      <h3>Payroll</h3>
+      <p>Gestión de nómina mensual, reportes y declaraciones laborales.</p>
+    </div>
+    <div class="card">
+      <i class="bi bi-pie-chart"></i>
+      <h3>Planificación Fiscal</h3>
+      <p>Estrategias para pagar menos y crecer de forma sostenible.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Mi trayectoria</h2>
+  <div class="timeline">
+    <p>2005: Inicio como asesor independiente.</p>
+    <p>2010: Certificación como Enrolled Agent (IRS).</p>
+    <p>2016: Creación de mi firma de consultoría.</p>
+    <p>2023: Reconocimiento por TaxPro USA como Top Advisor.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Casos de éxito</h2>
+  <div class="cards">
+    <div class="card">
+      <i class="bi bi-star-fill"></i>
+      <h3>TechStartup LLC</h3>
+      <p>Reducción del 32% en carga fiscal anual.</p>
+    </div>
+    <div class="card">
+      <i class="bi bi-award"></i>
+      <h3>Fundación ProEduca</h3>
+      <p>Constitución legal + exención de impuestos aprobada en 60 días.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Galería de trabajo</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/400x250" alt="Taller Fiscal" />
+    <img src="https://via.placeholder.com/400x250" alt="Firma Documentos" />
+    <img src="https://via.placeholder.com/400x250" alt="Reunión Empresarial" />
+  </div>
+</section>
+
+<section>
+  <h2>Opiniones reales</h2>
+  <div class="testimonial">
+    “Luis me ayudó a crear mi LLC y obtener estructura legal. Gracias a él estoy creciendo con tranquilidad.”<br><strong>- Carla V.</strong>
+  </div>
+  <div class="testimonial">
+    “Es confiable, profesional y muy claro en su comunicación.”<br><strong>- Pedro T.</strong>
+  </div>
+</section>
+
+<section>
+  <h2>Contacto</h2>
+  <div class="formbox">
+    <form id="formContacto">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="correo" placeholder="Tu correo electrónico" required />
+      <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+    <div class="contact-info">
+      <h3>Datos</h3>
+      <p><i class="bi bi-geo-alt-fill"></i> Chicago, IL</p>
+      <p><i class="bi bi-telephone-fill"></i> 773-321-8765</p>
+      <p><i class="bi bi-envelope-fill"></i> luis@correo.com</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Luis Ramírez | Consultoría Estratégica Empresarial</p>
+  <div class="social">
+    <a href="#"><i class="bi bi-facebook"></i></a>
+    <a href="#"><i class="bi bi-linkedin"></i></a>
+    <a href="#"><i class="bi bi-envelope-fill"></i></a>
+  </div>
+</footer>
+
+<a href="https://wa.me/17733218765" class="whatsapp-float" title="WhatsApp">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+<script>
+  document.getElementById("formContacto").addEventListener("submit", function(e) {
+    e.preventDefault();
+    alert("Gracias por tu mensaje. Me pondré en contacto contigo pronto.");
+    this.reset();
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ana Martínez | Defensa Fiscal Estratégica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f2f2f2;
+      color: #2c2c2c;
+      display: flex;
+    }
+
+    aside {
+      width: 250px;
+      background: #111;
+      color: white;
+      padding: 40px 20px;
+      height: 100vh;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    aside h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    aside p {
+      font-size: 0.95em;
+      color: #ccc;
+    }
+
+    nav {
+      margin-top: 30px;
+    }
+
+    nav a {
+      display: block;
+      color: #ccc;
+      text-decoration: none;
+      margin: 12px 0;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    .social a {
+      color: #f1c40f;
+      margin-right: 10px;
+      font-size: 1.3em;
+    }
+
+    main {
+      margin-left: 250px;
+      padding: 60px 40px;
+      flex: 1;
+    }
+
+    section {
+      margin-bottom: 80px;
+      max-width: 1000px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #1a1a1a;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1555374018-13a8994ab246?auto=format&fit=crop&w=1600&q=80') no-repeat center center;
+      background-size: cover;
+      height: 60vh;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      position: relative;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 12px;
+    }
+
+    .hero-content {
+      position: relative;
+      text-align: center;
+      z-index: 1;
+    }
+
+    .hero-content h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card i {
+      font-size: 2em;
+      color: #f1c40f;
+      margin-bottom: 10px;
+    }
+
+    .testimonial {
+      background: #fff;
+      border-left: 5px solid #f1c40f;
+      padding: 25px;
+      border-radius: 10px;
+      font-style: italic;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    }
+
+    .testimonial strong {
+      display: block;
+      margin-top: 10px;
+      color: #111;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    form {
+      margin-top: 20px;
+      display: grid;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    .button {
+      background: #111;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background: #333;
+    }
+
+    @media(max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      aside {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      main {
+        margin-left: 0;
+        padding: 20px;
+      }
+
+      nav {
+        display: flex;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <aside>
+    <div>
+      <h1>Ana Martínez</h1>
+      <p>Consultora Fiscal & Defensa Legal</p>
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#casos">Casos de Éxito</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+    <div class="social">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:ana@correo.com"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+  </aside>
+
+  <main>
+
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h1>Más que impuestos, es tu defensa</h1>
+        <p>Auditorías • Representación • Deudas con el IRS</p>
+      </div>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios Estratégicos</h2>
+      <div class="cards">
+        <div class="card">
+          <i class="bi bi-bank2"></i>
+          <h3>Representación ante el IRS</h3>
+          <p>Defensa completa y estratégica para enfrentar auditorías o notificaciones oficiales.</p>
+        </div>
+        <div class="card">
+          <i class="bi bi-file-lock2-fill"></i>
+          <h3>Resolución de Deudas</h3>
+          <p>Negociación directa para reducir, aplazar o estructurar tus pagos pendientes.</p>
+        </div>
+        <div class="card">
+          <i class="bi bi-person-vcard"></i>
+          <h3>Trámite de ITIN</h3>
+          <p>Tramitación segura, rápida y con apoyo legal para ti y tus dependientes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="casos">
+      <h2>Casos de Éxito</h2>
+      <div class="testimonial">
+        “Mi deuda de $14,200 fue negociada por Ana a solo $2,800 en 6 meses. Profesional, humana y muy clara.”
+        <strong>- Luis Herrera</strong>
+      </div>
+      <div class="testimonial">
+        “Me representó ante el IRS cuando nadie quiso ayudarme. El caso fue cerrado con éxito.”
+        <strong>- Carolina M.</strong>
+      </div>
+    </section>
+
+    <section id="galeria">
+      <h2>Mi trabajo en imágenes</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/400x250" alt="Consultoría Legal" />
+        <img src="https://via.placeholder.com/400x250" alt="Oficina Ana" />
+        <img src="https://via.placeholder.com/400x250" alt="Firma Documento" />
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Agenda una Consulta</h2>
+      <p>📍 Las Vegas, NV &nbsp; | &nbsp; 📞 702-555-1200 &nbsp; | &nbsp; 📧 ana@correo.com</p>
+      <form id="contactForm">
+        <input type="text" name="nombre" placeholder="Tu nombre completo" required />
+        <input type="email" name="correo" placeholder="Tu correo electrónico" required />
+        <textarea name="mensaje" rows="4" placeholder="Cuéntame tu caso..." required></textarea>
+        <button type="submit" class="button">📨 Enviar mensaje</button>
+      </form>
+    </section>
+
+  </main>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("¡Gracias! Me pondré en contacto contigo pronto.");
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AliadosTaxUSA | Inicio</title>
+      <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Open+Sans&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --azul-marino: #1C2D4A;
+      --teal: #00BFA5;
+      --oro-suave: #F9A825;
+      --gris-claro: #F5F5F5;
+      --fuente-principal: 'Open Sans', sans-serif;
+      --fuente-secundaria: 'Lato', sans-serif;
+      --fuente-titular: 'Poppins', sans-serif;
+      --fuente-titular-alt: 'Montserrat', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--fuente-principal);
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(28, 45, 74, 0.95);
+      color: white;
+      padding: 30px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      font-family: var(--fuente-secundaria);
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo-container img {
+      height: 65px;
+      width: auto;
+    }
+
+    .logo-container span {
+      font-size: 2.2rem;
+      font-family: var(--fuente-titular);
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      font-family: var(--fuente-secundaria);
+    }
+
+    .spacer {
+      height: 120px;
+    }
+
+    .hero {
+      background-image: url('GALLEGOSDOCUMENTCENTERIMAGEN.jpg');
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-family: var(--fuente-principal);
+    }
+
+    .hero h1 {
+      font-size: 3.4em;
+      font-family: var(--fuente-titular);
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+      color: #4A6BA6;
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+      font-family: var(--fuente-secundaria);
+    }
+
+    .cta-button {
+      background-color: var(--oro-suave);
+      color: white;
+      padding: 14px 32px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+      font-family: var(--fuente-secundaria);
+    }
+	
+	@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 10px 24px;
+  }
+
+  .logo-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo-container span {
+    font-size: 1.5rem;
+  }
+
+  .spacer {
+    height: 150px;
+  }
+
+  section {
+    padding: 60px 15px;
+  }
+
+  .botones-rapidos {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo-gallegos.png" alt="Logo Gallegos Document Center">
+      <div>
+        <span>AliadosTaxUSA</span>
+        <small style="font-size: 0.9rem; color: #f0f0f0; font-family: var(--fuente-secundaria);">"Balance mental y rendimiento fiscal"</small>
+      </div>
+    </div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#quienes">Quiénes Somos</a>
+      <a href="#comunidad">Comunidad</a>
+	    <a href="#galeria">Galeria</a> 
+      <a href="#recursos">Recursos</a>
+      <a href="#contacto">Contacto</a>
+    
+    </nav>
+  </header>
+
+  <div class="spacer"></div>
+
+  <section class="hero" id="inicio">
+  
+
+    <div style="margin-top: 60px; max-width: 800px; text-align: center;">
+      <h1>BIENVENIDO A ALIADOSFISCALES</h1>
+      <p>AliadosFiscales es mucho más que una plataforma digital. Es una comunidad pensada especialmente para preparadores de impuestos latinos que desean crecer, profesionalizarse y transformar sus servicios en una herramienta de impacto para sus clientes y su comunidad.</p>
+      <p>Aquí encontrarás acceso a entrenamientos exclusivos, materiales legales actualizados, recursos de valor y estrategias prácticas para diferenciarte como un verdadero asesor fiscal. Te ayudamos a ofrecer nuevos servicios como fideicomisos, testamentos y poderes legales, sin que tengas que hacer el trabajo legal tú mismo.</p>
+      <p>AliadosFiscales ha sido creado por profesionales con más de 30 años de experiencia sirviendo a la comunidad hispana. Sabemos lo que necesitas, entendemos a tus clientes, y estamos aquí para ayudarte a crecer con propósito, confianza y respaldo.</p>
+      <a href="tel:+17145608830" class="cta-button" style="margin-top: 20px;">LLAMA AHORA (714) 560-8830</a>
+    </div>
+  </section>
+
+  <section id="quienes" style="background-color: white; padding: 80px 20px;">
+  <div style="max-width: 1000px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: center;">
+
+    <!-- Imagen -->
+    <div style="flex: 1 1 300px; text-align: center;">
+      <img src="TIO.png" alt="Foto de Roberto Gallegos" style="max-width: 100%; border-radius: 10px;">
+    </div>
+
+    <!-- Texto -->
+    <div style="flex: 1 1 500px;">
+      <h2 style="font-family: var(--fuente-titular); color: var(--azul-marino); font-size: 2.4rem; margin-bottom: 20px;">
+        ¿Quiénes Somos?
+      </h2>
+
+      <p style="font-family: var(--fuente-secundaria); font-size: 1.1rem; margin-bottom: 20px;">
+        <strong>Misión:</strong> Brindar a preparadores de impuestos latinos las herramientas, educación y apoyo necesario para expandir sus servicios, mejorar su reputación y proteger a sus clientes con soluciones legales confiables.
+      </p>
+
+      <p style="font-family: var(--fuente-secundaria); font-size: 1.1rem; margin-bottom: 20px;">
+        <strong>Mi Historia:</strong> Soy Roberto Gallegos, fundador de Gallegos Document Center. Con más de 30 años de experiencia ayudando a la comunidad hispana a proteger sus bienes mediante fideicomisos, testamentos y soluciones legales, decidí crear AliadosFiscales para formar una red de profesionales unidos por una misma visión.
+      </p>
+
+      <p style="font-family: var(--fuente-secundaria); font-size: 1.1rem;">
+        <strong>Valores:</strong> Educación continua, integridad profesional, compromiso con la comunidad, protección familiar y crecimiento colaborativo.
+      </p>
+    </div>
+  </div>
+</section>
+
+ 
+
+ <section id="comunidad" style="background-color: #f9f9f9; padding: 80px 20px; text-align: center;">
+  <h2 style="font-family: var(--fuente-titular); color: var(--azul-marino); font-size: 2.2rem; margin-bottom: 20px;">Comunidad</h2>
+  <p style="max-width: 800px; margin: 0 auto 30px auto; font-family: var(--fuente-secundaria); font-size: 1.1rem;">
+    Únete a una red nacional de preparadores de impuestos que colaboran, se capacitan y crecen juntos. En nuestra comunidad privada compartimos recursos exclusivos, entrenamientos, eventos y experiencias reales.
+  </p>
+
+  <!-- Enlace al grupo privado -->
+  <p style="font-family: var(--fuente-secundaria); font-size: 1.1rem; margin-bottom: 30px;">
+    
+ <!-- Testimonios con fotos -->
+<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; max-width: 1000px; margin: 0 auto;">
+
+  <!-- Testimonio de Jorge Nanni -->
+  <div style="display: flex; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); width: 500px; align-items: center; gap: 20px;">
+    <img src="jorge.jpg" alt="Foto Jorge Nanni" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+    <div>
+      <p style="font-family: var(--fuente-secundaria); font-size: 1rem; font-style: italic;">“Desde que me uní a AliadosFiscales, he podido ofrecer nuevos servicios legales a mis clientes y aumentar mis ingresos.”</p>
+      <p style="margin-top: 10px; font-weight: bold;">— Jorge Nanni</p>
+    </div>
+  </div>
+
+  <!-- Testimonio de Ana Mendes -->
+  <div style="display: flex; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); width: 500px; align-items: center; gap: 20px;">
+    <img src="ANAMENDES.jpg" alt="Foto Ana Mendes" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+    <div>
+      <p style="font-family: var(--fuente-secundaria); font-size: 1rem; font-style: italic;">“Me siento acompañado por otros profesionales como yo. Aquí encontré mentoría real y comunidad.”</p>
+      <p style="margin-top: 10px; font-weight: bold;">— Ana Mendes</p>
+    </div>
+  </div>
+
+</div>
+
+
+  <!-- Galería de imágenes -->
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 60px;">
+    <img src="group.jpg" alt="Imagen 1" style="width: 500px; height: auto; border-radius: 10px;">
+    
+  </div>
+
+  <!-- Botón para unirse -->
+  <div style="margin-top: 40px; text-align: center;">
+    <a href="https://chat.whatsapp.com/BZA8WFJKFp95u1oUCaInMR" class="cta-button" target="_blank">ÚNETE A LA COMUNIDAD</a>
+  </div></div>
+  
+  
+  <!-- Sección Galería -->
+<section id="galeria" style="background-color: #ffffff; padding: 80px 20px;">
+  <h2 style="font-family: var(--fuente-titular); color: var(--azul-marino); font-size: 2.4rem; text-align: center; margin-bottom: 40px;">
+    Galería de Momentos Aliados
+  </h2>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; max-width: 1200px; margin: 0 auto;">
+    <!-- Fila 1 -->
+    <img src="galeria1.jpg" alt="Galería 1" style="width: 30%; border-radius: 10px; object-fit: cover;">
+    <img src="galeria2.jpg" alt="Galería 2" style="width: 30%; border-radius: 10px; object-fit: cover;">
+    <img src="galeria3.jpg" alt="Galería 3" style="width: 30%; border-radius: 10px; object-fit: cover;">
+
+    <!-- Fila 2 -->
+    <img src="galeria4.jpg" alt="Galería 4" style="width: 30%; border-radius: 10px; object-fit: cover;">
+    <img src="galeria5.jpg" alt="Galería 5" style="width: 30%; border-radius: 10px; object-fit: cover;">
+    <img src="galeria6.jpg" alt="Galería 6" style="width: 30%; border-radius: 10px; object-fit: cover;">
+  </div>
+</section>
+
+  
+  <section id="calendario" style="background-color: #ffffff; padding: 80px 20px; text-align: center;">
+  <h2 style="font-family: var(--fuente-titular); color: var(--azul-marino); font-size: 2.2rem; margin-bottom: 30px;">
+    Calendario de Eventos – Julio 2025
+  </h2>
+
+  <div style="max-width: 800px; margin: 0 auto; font-family: var(--fuente-secundaria); font-size: 1.1rem;">
+    <ul style="list-style: none; padding: 0; text-align: left;">
+      <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+        <img src="https://img.icons8.com/color/48/usa.png" alt="Independencia" style="width: 32px;">
+        <span><strong>4 de julio:</strong> Día de la Independencia – Oficina cerrada</span>
+      </li>
+      <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+        <img src="https://img.icons8.com/color/48/video-conference.png" alt="Zoom" style="width: 32px;">
+        <span><strong>10-11 de julio:</strong> Contabilidad y payroll VIA ZOOM MEETINGS </span>
+      </li>
+      <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+        <img src="https://img.icons8.com/color/48/sale.png" alt="Campaña" style="width: 32px;">
+        <span><strong>15 de julio:</strong> Cierre de campaña “Afíliate y Gana”</span>
+      </li>
+      <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+        <img src="https://img.icons8.com/?size=100&id=fJXFbcW0WrW9&format=png&color=000000" alt="Webinar" style="width: 32px;">
+        <span><strong>22 de julio:</strong> En Vivo con Roberto Gallegos– 5:00 PM</span>
+      </li>
+      <li style="margin-bottom: 0; display: flex; align-items: center; gap: 10px;">
+        <img src="https://img.icons8.com/color/48/trophy.png" alt="Evento exclusivo" style="width: 32px;">
+        <span><strong>28 de julio:</strong> Mi Primer Millón – Evento exclusivo por Zoom</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+</section>
+
+<section id="recursos" style="background-color: #ffffff; padding: 80px 20px;">
+  <h2 style="font-family: var(--fuente-titular); color: var(--azul-marino); font-size: 2.4rem; text-align: center; margin-bottom: 50px;">
+    Recursos Exclusivos para Profesionales Fiscales
+  </h2>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+
+    <!-- Descargables -->
+    <div style="background: #f5f5f5; border-radius: 12px; padding: 30px; text-align: center; display: flex; flex-direction: column; justify-content: space-between; min-height: 370px;">
+      <div>
+        <img src="https://img.icons8.com/color/96/pdf.png" alt="Descargables" style="margin-bottom: 15px;">
+        <h3 style="font-family: var(--fuente-titular); color: var(--azul-marino); margin-bottom: 10px;">Descargables</h3>
+        <p style="font-family: var(--fuente-secundaria); font-size: 1rem; margin-bottom: 20px;">
+          Plantillas, formularios y guías en PDF listas para aplicar con tus clientes.
+        </p>
+      </div>
+      <a href="DESCARGABLES.html" class="cta-button" style="margin-top: auto;">DESCARGAR</a>
+    </div>
+
+    <!-- Enlaces confiables -->
+    <div style="background: #f5f5f5; border-radius: 12px; padding: 30px; text-align: center; display: flex; flex-direction: column; justify-content: space-between; min-height: 370px;">
+      <div>
+        <img src="https://img.icons8.com/color/96/external-link.png" alt="Enlaces Externos" style="margin-bottom: 15px;">
+        <h3 style="font-family: var(--fuente-titular); color: var(--azul-marino); margin-bottom: 10px;">Enlaces confiables</h3>
+        <p style="font-family: var(--fuente-secundaria); font-size: 1rem; margin-bottom: 20px;">
+          Acceso a fuentes oficiales y contenidos validados sobre temas fiscales y legales.
+        </p>
+      </div>
+      <a href="ENLACES.html" class="cta-button" style="margin-top: auto;">VISITAR</a>
+    </div>
+
+   <!-- Videos / Podcasts -->
+<div style="background: #f5f5f5; border-radius: 12px; padding: 30px; text-align: center; display: flex; flex-direction: column; justify-content: space-between; min-height: 370px;">
+  <div>
+    <img src="https://img.icons8.com/color/96/youtube-play.png" alt="Videos y Podcasts" style="margin-bottom: 15px;">
+    <h3 style="font-family: var(--fuente-titular); color: var(--azul-marino); margin-bottom: 10px;">Videos / Podcasts</h3>
+    <p style="font-family: var(--fuente-secundaria); font-size: 1rem; margin-bottom: 20px;">
+      Contenido que te inspira, motiva y enseña a crecer como profesional.
+    </p>
+  </div>
+<a href="https://www.youtube.com/@robertofgallegos" target="_blank" class="cta-button" style="margin-top: auto;">VER VIDEOS</a>
+</div>
+
+
+    <!-- Herramientas -->
+    <div style="background: #f5f5f5; border-radius: 12px; padding: 30px; text-align: center; display: flex; flex-direction: column; justify-content: space-between; min-height: 370px;">
+      <div>
+        <img src="https://img.icons8.com/fluency/240/laptop-coding.png" alt="Herramientas" style="margin-bottom: 15px; max-width: 120px;">
+        <h3 style="font-family: var(--fuente-titular); color: var(--azul-marino); margin-bottom: 10px;">Herramientas</h3>
+        <p style="font-family: var(--fuente-secundaria); font-size: 1rem; margin-bottom: 20px;">
+          Calculadoras, software y recursos digitales que te facilitan el trabajo.
+        </p>
+      </div>
+      <a href="HERRAMIENTAS.html" class="cta-button" style="padding: 8px 20px; font-size: 0.95rem; margin-top: auto;">IR A HERRAMIENTAS</a>
+	  
+	   </div>
+	  
+<div style="background: #f5f5f5; border-radius: 12px; padding: 30px; text-align: center; display: flex; flex-direction: column; justify-content: space-between; min-height: 370px;">
+  <div>
+    <img src="https://cdn-icons-png.flaticon.com/512/3585/3585103.png" alt="Ícono de Fideicomiso" style="margin-bottom: 15px;" width="96" height="96">
+    <h3 style="font-family: var(--fuente-titular); color: var(--azul-marino); margin-bottom: 10px;">Fideicomisos</h3>
+    <p style="font-family: var(--fuente-secundaria); font-size: 1rem; margin-bottom: 20px;">
+      Protege tu casa, tu familia y tu legado con un fideicomiso. Aprende más en nuestra página oficial.
+    </p>
+  </div>
+  <a href="https://gallegosdocumentcenter.com/" target="_blank" class="cta-button" style="margin-top: auto;">Ir a GallegosDocCenter</a>
+</div>
+
+  </section>
+   
+<!-- Sección separada de Preparadores -->
+<section id="preparadores" style="background-color: #fff9ec; padding: 80px 20px;">
+  <h2 style="font-family: var(--fuente-titular); color: var(--oro-suave); font-size: 2.4rem; text-align: center; margin-bottom: 40px;">
+    Nuestros Preparadores de Impuestos
+  </h2>
+
+  <div style="max-width: 1000px; margin: 0 auto; text-align: center; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+    <img src="https://img.icons8.com/color/96/conference.png" alt="Icono Preparadores" style="margin-bottom: 15px;">
+    <h3 style="font-family: var(--fuente-titular); color: var(--oro-suave); margin-bottom: 10px;">PREPARADORES</h3>
+    <p style="font-family: var(--fuente-secundaria); font-size: 1.1rem; margin-bottom: 25px;">
+      Conoce los perfiles de nuestros preparadores de impuestos certificados y encuentra un aliado cerca de ti.
+    </p>
+    <a href="preparadores.html" class="cta-button" style="background-color: #f59e0b; padding: 12px 24px; font-size: 1rem;">VER PERFILES</a>
+  </div>
+</section>
+
+
+
+
+ <section id="contacto" style="background-color: #f9f9f9; padding: 80px 20px;">
+  <h2 style="font-family: var(--fuente-titular); color: var(--azul-marino); font-size: 2.2rem; text-align: center; margin-bottom: 30px;">
+    Contáctanos
+  </h2>
+
+  <div style="max-width: 900px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px; justify-content: center;">
+
+
+ <form id="whatsapp-form" onsubmit="enviarWhatsapp(event)" style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 15px;">
+  <input type="text" id="nombre" placeholder="Tu nombre" required style="padding: 12px; font-family: var(--fuente-secundaria); border-radius: 6px; border: 1px solid #ccc;">
+  <input type="email" id="correo" placeholder="Tu correo" required style="padding: 12px; font-family: var(--fuente-secundaria); border-radius: 6px; border: 1px solid #ccc;">
+  <textarea id="mensaje" placeholder="Tu mensaje" rows="5" required style="padding: 12px; font-family: var(--fuente-secundaria); border-radius: 6px; border: 1px solid #ccc;"></textarea>
+  <button type="submit" class="cta-button" style="align-self: flex-start;">ENVIAR MENSAJE</button>
+</form>
+
+<script>
+function enviarWhatsapp(event) {
+  event.preventDefault(); // evita que el formulario se envíe normalmente
+
+  const nombre = document.getElementById('nombre').value;
+  const correo = document.getElementById('correo').value;
+  const mensaje = document.getElementById('mensaje').value;
+
+  // Teléfono de destino (México +52)
+  const telefono = "526863896122";
+
+  const texto = `Hola, soy ${nombre}. Mi correo es: ${correo}. Quiero decir: ${mensaje}`;
+  const url = `https://wa.me/${telefono}?text=${encodeURIComponent(texto)}`;
+
+  window.open(url, '_blank'); // abre WhatsApp en una nueva pestaña
+}
+</script>
+
+
+
+
+    <!-- Datos de contacto -->
+    <div style="flex: 1 1 300px;">
+      <p style="font-family: var(--fuente-secundaria); font-size: 1.1rem; margin-bottom: 20px;">
+        📧 Escríbenos directamente: <strong>rgallegos@rfggroup.com</strong>
+      </p>
+      <p style="font-family: var(--fuente-secundaria); font-size: 1.1rem; margin-bottom: 20px;">
+        📨 Obten la membresia para recibir contenido exclusivo y noticias importantes.
+      </p>
+
+      <!-- Redes sociales -->
+      <div style="display: flex; gap: 15px; margin-top: 20px;">
+        <a href="https://www.facebook.com/gallegosdocumentcenter" target="_blank"><img src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Facebook" style="width: 32px;"></a>
+        <a href="https://www.instagram.com/gallegosdocumentcenter/" target="_blank"><img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram" style="width: 32px;"></a>
+        <a href="https://chat.whatsapp.com/BZA8WFJKFp95u1oUCaInMR" target="_blank"><img src="https://img.icons8.com/fluency/48/whatsapp.png" alt="WhatsApp" style="width: 32px;"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer style="background-color: #1C2D4A; color: white; padding: 40px 20px; text-align: center; font-family: var(--fuente-secundaria);">
+  <div style="max-width: 1000px; margin: 0 auto;">
+    
+  
+    <!-- Enlaces -->
+    <p style="margin-bottom: 15px; font-size: 0.95rem;">
+   <a href="javascript:void(0);" onclick="abrirModal()" style="color: white; text-decoration: underline; margin: 0 10px;">Aviso Legal</a> |
+<a href="javascript:void(0);" onclick="abrirModal()" style="color: white; text-decoration: underline; margin: 0 10px;">Términos y Condiciones</a>
+
+
+    </p>
+
+    
+    <p style="margin-top: 25px; font-size: 0.8rem; color: #ccc;">&copy; 2025 AliadosFiscales. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+
+<!-- MODAL LEGAL -->
+<div id="modalLegal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7); z-index:2000; justify-content:center; align-items:center;">
+  <div style="background:white; max-width:800px; width:90%; padding:30px; border-radius:10px; position:relative; font-family: 'Lato', sans-serif; overflow-y: auto; max-height:90vh; color:#333;">
+    <button onclick="cerrarModal()" style="position:absolute; top:15px; right:15px; background:none; border:none; font-size:1.5rem; cursor:pointer;">✖</button>
+    
+    <h2 style="color:#1C2D4A; margin-bottom: 15px;">Aviso Legal</h2>
+    <p style="margin-bottom:15px;">
+      Este sitio web es propiedad de AliadosFiscales. Toda la información contenida se proporciona con fines educativos e informativos. No constituye asesoramiento legal ni profesional. El uso del contenido es bajo su propio riesgo.
+    </p>
+    <p style="margin-bottom:30px;">
+      AliadosFiscales no garantiza la exactitud ni la actualidad de la información publicada. Recomendamos consultar con un profesional antes de tomar decisiones importantes basadas en este sitio.
+    </p>
+
+    <h2 style="color:#1C2D4A; margin-bottom: 15px;">Términos y Condiciones</h2>
+    <ul style="padding-left: 20px; margin-bottom: 20px;">
+      <li>El contenido del sitio es propiedad de AliadosFiscales.</li>
+      <li>Está prohibida la reproducción sin autorización previa.</li>
+      <li>Nos reservamos el derecho a cambiar el contenido sin previo aviso.</li>
+      <li>No somos responsables por el uso indebido del sitio o sus recursos.</li>
+    </ul>
+    <p>
+      Para cualquier duda, contáctanos a <strong>info@aliadosfiscales.com</strong>
+    </p>
+  </div>
+</div>
+
+<script>
+  function abrirModal() {
+    document.getElementById("modalLegal").style.display = "flex";
+  }
+
+  function cerrarModal() {
+    document.getElementById("modalLegal").style.display = "none";
+  }
+</script>
+
+<script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="tVZkVYx8ZbulyRy--W3Rm";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+
+</body>
+</html>
